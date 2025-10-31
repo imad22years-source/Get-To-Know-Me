@@ -1,0 +1,117 @@
+/* Style général */
+body {
+  background-color: #f2f2f2;
+  font-family: Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres */
+h1 {
+  text-align: center;
+  color: #0055aa;
+}
+
+h2 {
+  color: #0077cc;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0055aa;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #555;
+  width: 300px;
+}
+
+/* Contenu */
+main {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Ordered list number alignment fix */
+ol {
+  list-style-position: inside; /* Numbers appear right next to the text */
+  padding-left: 0; /* Removes default indentation */
+  margin: 0 auto; /* Keeps list centered */
+  text-align: left; /* Aligns text neatly */
+  display: inline-block; /* Keeps layout clean */
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: gray;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+/* ===== Table styling for contact page ===== */
+table {
+  width: 70%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #0055aa;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Liens dans le tableau */
+table a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
